@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+</head>
+
+<body style="text-align: center;">
+    <h1 style="text-align:center;color: darkblue;font-size: larger;">Log in</h1>
+    <br>
+    <br>
+    <form action="base.php" method="post" style="text-align:center;" autocomplete="on">
+       
+        <label for="pseudo">User name</label> 
+        <br> 
+        <input type="text" name="pseudo" id="pseudo" placeholder="Enter your username" maxlength="15" required>
+        <br>
+        <br>
+        <label for="pass">Password</label> 
+        <br> 
+        <input type="password" name="pass" id="pass" placeholder="Enter your password" maxlength="10" required>
+        <br>
+        <br>
+        <input type="checkbox" name="logged in" id="logged in"> : <label for="logged in">Keep me logged in (for up to 356 days)</label>
+        <br>
+        <br>
+        <input type="submit" value="Log in" style="color:white;background-color: darkblue;width:175px;height: 30px;border-color: white;">
+        <br>
+        <br>
+        <br>
+        <!--<input type="submit" value="">
+        <a href="sign-in.html" style="text-align:center;text-decoration: none;color:darkblue;">Sign in</a>-->
+
+    </form>
+    <a href="sign-in.html">
+        <label for="signin" style="font-weight: ;bold">Don't have an account?</label>
+        <br>
+        <input type="submit" value="Sign in" id="signin" style="color:darkblue;background-color: white;border-color:lightgray;font-weight: bold;width: 175px;height: 30px;">
+    </a>
+</body>
+</html>
